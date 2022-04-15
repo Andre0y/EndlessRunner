@@ -392,7 +392,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 8be51ab3a07be41a7aed4aaf94a02f32
+      Hash: 8cb2b6414bd222d773d24a9cc7138305
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Lose

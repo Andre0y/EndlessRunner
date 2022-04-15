@@ -11,6 +11,7 @@ public class Lose : MonoBehaviour
     [SerializeField] private Text scoreText;
     [SerializeField] private AudioSource BackGround;
     [SerializeField] private AudioSource loseBackGround;
+    [SerializeField] private AudioSource CoinSource;
 
     private int _score;
     
@@ -40,6 +41,8 @@ public class Lose : MonoBehaviour
             
             _score++;
             scoreText.text = _score.ToString();
+            
+            CoinSource.Play();
             
         
         }
